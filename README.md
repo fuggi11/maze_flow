@@ -1,5 +1,5 @@
 # maze_flow
-# maze_flow
+
 MAZE USING REINFORCEMENT LEARNING
 
 In this project we use the Bellman equation which uses the state value function which is based on the concept of Dynamic Programming.
