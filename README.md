@@ -10,4 +10,4 @@ In this project we use the Bellman equation which uses the state value function 
 - \(R(s, a)\): Reward obtained upon performing action \(a\) from state \(s\)
 - \(\gamma\): Discount factor (It is a hyperparameter that determines the amount of importance we give to future rewards)
 
-![GRID](images/bob.png)
+![GRID](images/grid.PNG)
