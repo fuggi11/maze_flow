@@ -11,9 +11,9 @@ screen = pygame.display.set_mode((WIDTH, HEIGHT))
 pygame.display.set_caption("Grid World")
 
 pos = [(row, col) for row in range(8) for col in range(8)]
-wall = random.sample(pos, 6)
+wall = random.sample(pos, 10)
 pos = [(row, col) for (row, col) in pos if (row, col) not in wall]
-danger = random.sample(pos, 3)
+danger = random.sample(pos, 5)
 pos = [(row, col) for (row, col) in pos if (row, col) not in danger]
 final.append(random.sample(pos, 1)[0])
 pos = [(row, col) for (row, col) in pos if (row, col) != final[0]]
